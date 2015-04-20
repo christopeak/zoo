@@ -8,3 +8,12 @@
 
 Zebra.create weight: 50
 Zebra.create weight: 80
+Zebra.create weight: 180
+Zebra.create weight: 30
+Zebra.create weight: 59
+
+Tiger.create appetite: 250
+Tiger.create appetite: 117
+Tiger.create
+Tiger.create
+Tiger.create appetite: 211
