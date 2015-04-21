@@ -1,5 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe Zebra, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+    
+  it "has weights" do
+    expect(subject).to have_attribute(:weight)
+  end
+
 end
