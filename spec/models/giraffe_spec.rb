@@ -10,5 +10,10 @@ RSpec.describe Giraffe, type: :model do
        g = Giraffe.new(height: 18)
        expect(g.guess_age).to eq 12
     end
+    
+    it "can have decimal height" do
+       g = Giraffe.new(height: 20.23)
+       expect(g.height).to eq 20.23
+    end
 
 end
