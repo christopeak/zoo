@@ -1,10 +1,10 @@
 class Turtle < ActiveRecord::Base
     
     def hide
-       @status = false 
+       self.status = false 
     end
     
     def emerge
-       @status = true 
+       self.status = true 
     end
 end
