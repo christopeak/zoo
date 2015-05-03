@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150421040937) do
+ActiveRecord::Schema.define(version: 20150502130257) do
 
   create_table "giraffes", force: :cascade do |t|
     t.float    "height"
@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(version: 20150421040937) do
     t.integer  "weight"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string   "name"
   end
 
 end

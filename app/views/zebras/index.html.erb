@@ -1,0 +1,5 @@
+<h1>There are <%= @zebra_count %> zebras in the zoo.</h1>
+<h2>params = <%= @my_params %></h2>
+<% @my_params.each_pair do |k,v| %>
+    <%= k %>, <%= v %><br/>
+<% end %>

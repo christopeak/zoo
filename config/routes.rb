@@ -1,7 +1,13 @@
 Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-
+  #resources :zebras
+  get "zebra/:id" => 'zebras#show', :id => /[0-9]+/, as: 'zebra'
+ # get '/zebras', to: 'zebras#index'
+  get 'someaction/:name', to: 'zebras#someaction', as: 'action'
+  #get 'zebras/index'
+  get ":name" => 'zebras#someaction'
+  
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
